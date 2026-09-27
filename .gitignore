@@ -41,3 +41,6 @@ repo/
 
 ### Stray game logs ###
 logs/
+
+### Claude Code ###
+CLAUDE.md
