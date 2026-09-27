@@ -1,5 +1,8 @@
 {
-  "itemGroup.apexmovement": "Example Mod Tab",
+  "itemGroup.apexmovement": "Apex Movement",
   "block.apexmovement.example_block": "Example Block",
-  "item.apexmovement.example_item": "Example Item"
+  "apexmovement.configuration.title": "Apex Movement Configs",
+  "apexmovement.configuration.section.apexmovement.server.toml": "Apex Movement Configs",
+  "apexmovement.configuration.section.apexmovement.server.toml.title": "Apex Movement Configs",
+  "apexmovement.configuration.enabled": "Enable Apex movement"
 }
