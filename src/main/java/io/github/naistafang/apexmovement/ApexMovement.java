@@ -2,7 +2,8 @@ package io.github.naistafang.apexmovement;
 
 import com.mojang.logging.LogUtils;
 import io.github.naistafang.apexmovement.config.MovementConfig;
-import io.github.naistafang.apexmovement.example.ExampleContent;
+import io.github.naistafang.apexmovement.movement.sound.MovementSounds;
+import io.github.naistafang.apexmovement.movement.state.MovementAttachments;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
@@ -19,7 +20,8 @@ public class ApexMovement {
 
     // FML passes in the mod event bus (registration and lifecycle events) and our ModContainer.
     public ApexMovement(IEventBus modEventBus, ModContainer modContainer) {
-        ExampleContent.register(modEventBus);
+        MovementAttachments.register(modEventBus);
+        MovementSounds.register(modEventBus);
 
         // SERVER configs are loaded by the server and synced to clients on join, so the server
         // stays the authority on movement tuning values.

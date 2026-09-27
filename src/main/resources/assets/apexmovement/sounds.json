@@ -1,0 +1,117 @@
+{
+  "mantle.grab": {
+    "subtitle": "apexmovement.subtitle.mantle.grab",
+    "sounds": [
+      {
+        "name": "minecraft:item/armor/equip_generic1",
+        "volume": 0.6,
+        "pitch": 1.1
+      },
+      {
+        "name": "minecraft:item/armor/equip_generic2",
+        "volume": 0.6,
+        "pitch": 1.1
+      },
+      {
+        "name": "minecraft:item/armor/equip_generic3",
+        "volume": 0.6,
+        "pitch": 1.1
+      },
+      {
+        "name": "minecraft:item/armor/equip_generic4",
+        "volume": 0.6,
+        "pitch": 1.1
+      },
+      {
+        "name": "minecraft:item/armor/equip_generic5",
+        "volume": 0.6,
+        "pitch": 1.1
+      },
+      {
+        "name": "minecraft:item/armor/equip_generic6",
+        "volume": 0.6,
+        "pitch": 1.1
+      }
+    ]
+  },
+  "mantle.pull": {
+    "subtitle": "apexmovement.subtitle.mantle.pull",
+    "sounds": [
+      {
+        "name": "minecraft:step/cloth1",
+        "volume": 0.8,
+        "pitch": 0.9
+      },
+      {
+        "name": "minecraft:step/cloth2",
+        "volume": 0.8,
+        "pitch": 0.9
+      },
+      {
+        "name": "minecraft:step/cloth3",
+        "volume": 0.8,
+        "pitch": 0.9
+      },
+      {
+        "name": "minecraft:step/cloth4",
+        "volume": 0.8,
+        "pitch": 0.9
+      }
+    ]
+  },
+  "superglide": {
+    "subtitle": "apexmovement.subtitle.superglide",
+    "sounds": [
+      {
+        "name": "minecraft:entity/player/attack/sweep1",
+        "volume": 0.7,
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep2",
+        "volume": 0.7,
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep3",
+        "volume": 0.7,
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep4",
+        "volume": 0.7,
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep5",
+        "volume": 0.7,
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep6",
+        "volume": 0.7,
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep7",
+        "volume": 0.7,
+        "pitch": 0.7
+      }
+    ]
+  },
+  "wall_jump": {
+    "subtitle": "apexmovement.subtitle.wall_jump",
+    "sounds": [
+      {
+        "name": "minecraft:mob/breeze/jump1",
+        "volume": 0.45,
+        "pitch": 1.2
+      },
+      {
+        "name": "minecraft:mob/breeze/jump2",
+        "volume": 0.45,
+        "pitch": 1.2
+      }
+    ]
+  }
+}

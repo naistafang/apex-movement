@@ -32,7 +32,10 @@ All of them depend on a reworked momentum system, which is built first.
 
 ### Build order (one step at a time; confirm with me before starting the next)
 1. **Momentum core + debug HUD**: state machine, state-based friction/acceleration, no new mechanics yet.
-   With default config it should feel close to vanilla, but all ground/air horizontal movement runs through the new system.
+   All ground/air horizontal movement runs through the new system. Default ground speeds match Apex
+   (walk 5.07, sprint 7.59, crouch 2.34 m/s, treating 1 block = 1 m and 1 Apex unit = 1 inch). Jump (1.42 m, 0.74 s airtime),
+   gravity, no air friction and Source-style air acceleration (accelerate 500, cap 60 units/s) also match Apex.
+   Values Apex doesn't publish (ground acceleration/friction) stay vanilla-derived.
 2. **Sliding**: crouch while sprinting; low friction, initial speed boost, momentum carry.
 3. **Bunny hopping**: landing friction-skip window; slide-hopping (jump out of a slide keeping speed).
 4. **Air strafing, then tap strafing**
